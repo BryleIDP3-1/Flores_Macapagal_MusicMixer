@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0px;
+	border: 0px;
+	background-image:url(../images/puzzle2.jpg);
+	background-repeat:repeat;
+	background-color: #333;
+	color:#FFF;
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+}
