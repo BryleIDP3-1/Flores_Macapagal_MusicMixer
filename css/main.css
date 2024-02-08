@@ -12,10 +12,44 @@ html {
 body {
 	margin: 0px;
 	border: 0px;
-	background-image:url(../images/puzzle2.jpg);
+	background-image:url(../images);
 	background-repeat:repeat;
 	background-color: #333;
 	color:#FFF;
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
+}
+
+#stage {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+
+header {
+	margin-top: 20px;
+	width:600px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 3.25em;
+  	letter-spacing: 3px;
+	margin: 10px 0
+}
+
+header p, footer p { 
+	font-size: 1.7em; 
+	letter-spacing: 2px; 
+	margin: 10px 0 
+}
+
+footer {
+	width:600px;
+	margin: 0px auto;
+	text-align: center;
 }
