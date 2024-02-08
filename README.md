@@ -26,6 +26,7 @@ Updated on the following days:
 - February 03, 2024
 - February 06, 2024
 - February 07, 2024
+- February 08, 2024
 
 ## Credits :writing_hand:
 __Officially Published by:__
