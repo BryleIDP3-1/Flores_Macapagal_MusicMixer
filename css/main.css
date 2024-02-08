@@ -1,12 +1,15 @@
 @charset "utf-8";
-/* CSS Document */
-
 
 html {
 	box-sizing: border-box;
 }
+
 *, *:before, *:after {
 	box-sizing: inherit;
+}
+
+.hidden {
+    display: none;
 }
 
 body {
@@ -27,7 +30,6 @@ body {
 	max-width: 900px;
 	margin: 0 auto;
 }
-
 
 header {
 	margin-top: 20px;
