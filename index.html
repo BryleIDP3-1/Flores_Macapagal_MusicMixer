@@ -11,14 +11,13 @@
 
 <link href="css/main.css" rel="stylesheet" type="text/css">
 <link href="css/grid.css" rel="stylesheet" type="text/css">
+<link href="images/favicon_1.svg" rel="icon" type="image/x-icon">
 </head>
 
 <body>
-	<button id="resetBut">Reset</button>
-
 	<header id="headLine">
-		<h1>QUATRO</h1>
-		<p>Music Mixer v1.0</p>
+		<h1 class="hidden">QUATRO</h1>
+		<p>Drag The Fruits Into The Boxes To Play</p>
 	</header>
 
 	<section id="stage">
@@ -26,6 +25,22 @@
 		<div class="QUATRO Letters">
             <p>Drag the fruits into the letters to play</p>
 		</div>
+	</section>
+
+	<section class="audio-box grid-con">
+		<button id="playBtn" class="btn">
+			<img src="images/Button_Play.svg" alt="Play Button" id="play-btn">
+		</button>
+		<button id="pauseBtn" class="btn">
+			<img src="images/Button_Pause.svg" alt="Pause Button" id="pause-btn">
+		</button>
+		<button id="replayBtn" class="btn">
+			<img src="images/Button_Replay.svg" alt="Replay Button" id="replay-btn">
+		</button>
+		<!-- ***REQUIRES NEW ASSET AS RESET BUTTON MOVED*** -->
+		<button id="resetBtn" class="btn">
+			<img src="images/Button_Reset.svg" alt="Reset Button" id="reset-btn">
+		</button>
 	</section>
 
 	<footer>
@@ -38,32 +53,8 @@
 </body>
 </html>
 
-<!-- <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-	<title>Quatro Music Mixer</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet" type="text/css">
-	<link href="css/grid.css" rel="stylesheet" type="text/css">
-</head>
+<!-- 
 <body>
-	<button id="resetBut">Reset</button>
-
-	<header id="headLine">
-		<h1>QUATRO</h1>
-		<p>Music Mixer v1.0</p>
-
-	</header>
-
-	<section id="stage">
-        <h2 class="hidden">Stage</h2>
-		<div class="QUATRO Letters">
-            <p>Drag the fruits into the letters to play</p>
-		</div>
-
 		<div class="top-elements">
 			<img src="images/Disco_Icon-animated.svg" alt="disco balls" id="disco-ball" height="300px">
 			<img src="images/Logo_Icon.svg" alt="QUATRO logo" id="quatro-logo" width="400px">
@@ -78,13 +69,11 @@
 	</section>
 
 	<section id="drop-board" class="grid-con">
-
 			<div class="drop-square"></div>
 			<div class="drop-square"></div>
 			<div class="drop-square"></div>
 			<div class="drop-square"></div>
 			<div class="drop-square"></div>
-
 	</section>
 
 	<section class="fruit-box grid-con">
@@ -97,20 +86,6 @@
 		<div class="fruits"><img src="images/Peach_Icon.svg" alt="peach" id="techno_beat_1" draggable="true"></div>
 		<div class="fruits"><img src="images/Grape_Icon.svg" alt="grape" id="techno_beat_2" draggable="true"></div>
 	</section>
-
-	<section class="audio-box grid-con">
-		<button id="playBtn" class="btn">
-			<img src="images/Button_Play.svg" alt="play button" id="play-btn">
-		</button>
-		<button id="pauseBtn" class="btn">
-			<img src="images/Button_Pause.svg" alt="pause button" id="pause-btn">
-		</button>
-		<button id="replayBtn" class="btn">
-			<img src="images/Button_Replay.svg" alt="replay button" id="replay-btn">
-		</button>
-	</section>
-
-
 
 	<script src="js/main.js"></script>
 </body>
