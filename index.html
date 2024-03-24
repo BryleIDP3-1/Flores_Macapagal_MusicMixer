@@ -14,18 +14,23 @@
 <link href="images/favicon_1.svg" rel="icon" type="image/x-icon">
 </head>
 
+<!-- GRID REFERENCE -->
+
+<!--<body>
+    <h1 class="hidden">Boxed Grid</h1>
+        <section class="grid-con menu">
+            <h2 class="header hidden">Header</h2>
+            <div id="logo" class="box col-start-1 col-end-4 m-col-start-1 m-col-end-10 l-col-start-1 l-col-end-5">Logo</div>
+        </section> -->
+
 <body>
-	<header id="headLine">
+	<header id="headLine" class="grid-con">
 		<h1 class="hidden">QUATRO</h1>
+		<img src="images/Disco_Icon.svg" alt="Disco Ball" class="discoBall">
+		<img src="images/Logo_Icon.svg" alt="Quatro Logo" id="mainLogo" class="s">
+		<img src="images/Disco_Icon.svg" alt="Disco Ball" class="discoBall">
 		<p>Drag The Fruits Into The Boxes To Play</p>
 	</header>
-
-	<section id="stage">
-        <h2 class="hidden">Stage</h2>
-		<div class="QUATRO Letters">
-            <p>Drag the fruits into the letters to play</p>
-		</div>
-	</section>
 
 	<section class="audio-box grid-con">
 		<button id="playBtn" class="btn">
@@ -42,12 +47,6 @@
 			<img src="images/Button_Reset.svg" alt="Reset Button" id="reset-btn">
 		</button>
 	</section>
-
-	<footer>
-		<p>Fruits</p>
-		<nav id="buttonFruits">
-		</nav>
-	</footer>
 
 	<script src="js/main.js"></script>
 </body>
