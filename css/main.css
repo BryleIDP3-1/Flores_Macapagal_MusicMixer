@@ -28,15 +28,24 @@ header {
 	display: flex;
 }
 
-p {
+#instructions {
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 20px;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.fruits p {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
 }
 
 .discoBall {
 	mix-blend-mode: screen;
 	width: 20rem;
+	display: none;
 }
 
 #mainLogo {
@@ -47,6 +56,36 @@ p {
 	width: 5rem;
 }
 
+.drop-square {
+	background-color: #6727ff;
+	border-radius: 20px;
+	width: 150px;
+	height: 150px;
+}
+
+.speakerCan {
+	width: 20rem;
+	display: none;
+}
+
+#bunnyDJ {
+	width: 28rem;
+}
+
+#orangeStripe {
+	width: 150rem;
+	justify-content: center;
+	align-items: center;
+}
+
+#stripe {
+	overflow: hidden;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+}
 
 /* Mobile Styling */
 
