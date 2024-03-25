@@ -38,165 +38,21 @@ header {
 	width: 40rem;
 }
 
-/* #stage {
-	text-align: center;
-	display: flex;
-	flex-direction: row;
-	max-width: 900px;
-	margin: 0 auto;
-}
 
-header {
-	margin-top: 20px;
-	width:600px;
-	margin: 0px auto;
-	text-align: center;
-}
+/* Mobile Styling */
 
-header h1 {
-	font-size: 3.25em;
-  	letter-spacing: 3px;
-	margin: 10px 0
-}
+@media screen and (min-width: 412px) {
 
-header p, footer p { 
-	font-size: 1.7em; 
-	letter-spacing: 2px; 
-	margin: 10px 0 
-}
+ }
+ 
+ /* Tablet Styling */
+ 
+@media screen and (min-width: 768px) {
 
-footer {
-	width:600px;
-	margin: 0px auto;
-	text-align: center;
-} */
+ }
+ 
+ /* Desktop Styling */
+ 
+@media screen and (min-width: 1200px) {
 
-/* SECOND SET OF IMPORT */
-
-/* #game-boards {
-	text-align: center;
-	display: flex;
-	flex-direction: row;
-	max-width: 900px;
-	margin: 0 auto;
-} */
-
-/* .puzzle-board {
-	margin-top: 40px;
-	height: 400px;
-	border: medium solid #333;
-	background-color: #000;
-	color: inherit;
-	overflow: hidden;
-} */
-
-.drop-square {
-	background-color: #6727ff;
-	border-radius: 20px;
-	width: 150px;
-	height: 150px;
-/* border: 5px solid #6727ff; */
-}
-
-.puzzle-pieces {
-	margin-top: 40px;
-	/* height: 400px; */
-	border: medium solid #333;
-	background-color: #000;
-	color: inherit;
-	/* overflow: hidden; */
-}
-
-.puzzle-pieces {
-	width: 600px;
-	margin-right: 20px;
-	display: flex;
-	flex-direction: row;
-}
-
-/* .puzzle-board { 
-	width:1000px; 
-	background-image: url('../images/QUATRO-logo-01.svg');
-	background-repeat: no-repeat;
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 65px;
-} */
-
-#drop-board {
-	display: flex;
-}
-
-.puzzle-image {
-	width: 40%;
-	display: block;
-	padding: 8px;
-	cursor: pointer;
-}
-
-.puzzle-image:nth-child(even) {
-	margin-left: auto;
-}
-
-/* .drop-zone {
-	width: 50%;
-	height: 50%;
-	border: thin dashed white;
-	position: relative;
-
-} */
-
-.drop-zone img {
-	padding: 0;
-	position: absolute;
-	width: 90%;
-}
-
-
-/* set positioning for pieces so they align/snap together */
-.tl img { right: 0; bottom: 0; }
-.tr img { bottom: 0; }
-.bl img { right: 0; }
-
-
-/* header {
-	margin-top: 20px;
-	width:600px;
-	margin: 0px auto;
-	text-align: center;
-}
-
-header h1 {
-	font-size: 3.25em;
-  	letter-spacing: 3px;
-	margin: 10px 0
-}
-
-header p, footer p { 
-	font-size: 1.7em; 
-	letter-spacing: 2px; 
-	margin: 10px 0 
-} */
-
-footer {
-	width:600px;
-	margin: 0px auto;
-	text-align: center;
-}
-
-#buttonHolder {
-	margin: 0px auto;
-	text-align:center;
-}
-
-#buttonHolder img {
-	margin-left: 5px;
-	margin-right: 5px;
-	border-radius: 20px;
-	border: thin solid #333;
-	cursor: pointer;
-}
-
-#buttonHolder img:hover {
-	opacity:.5;
-}
+ }
