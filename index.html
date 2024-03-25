@@ -24,13 +24,24 @@
         </section> -->
 
 <body>
+	<button id="resetBtn" class="btn">
+		<img src="images/Button_Reset.svg" alt="Reset Button" id="reset-btn">
+	</button>
+
 	<header class="grid-con">
 		<h1 class="hidden">Quatro Header</h1>
 		<div class="col-span-full">
 		<img src="images/Logo_Icon.svg" alt="Quatro Logo" id="mainLogo">
-		<p>Drag The Fruits Into The Boxes To Play</p>
+		<p id="instructions">Drag The Fruits Into The Boxes To Play</p>
 		</div>
 	</header>
+
+	<section id="drop-board" class="grid-con">
+		<div class="drop-square"></div>
+		<div class="drop-square"></div>
+		<div class="drop-square"></div>
+		<div class="drop-square"></div>
+	</section>
 
 	<section class="grid-con">
 		<img src="images/Disco_Icon.svg" alt="Disco Ball" class="discoBall col-start-1 col-end-3">
@@ -88,50 +99,15 @@
 		<button id="replayBtn" class="btn">
 			<img src="images/Button_Replay.svg" alt="Replay Button" id="replay-btn">
 		</button>
-		<!-- ***REQUIRES NEW ASSET AS RESET BUTTON MOVED*** -->
-		<button id="resetBtn" class="btn">
-			<img src="images/Button_Reset.svg" alt="Reset Button" id="reset-btn">
-		</button>
 	</section>
+
+	<footer class="grid-con">
+		<img src="images/Speaker_Icon.svg" alt="Speaker Can" class="speakerCan">
+		<img src="images/Bunny_Icon.svg" alt="Bunny DJ" id="bunnyDJ">
+		<img src="images/Speaker_Icon.svg" alt="Speaker Can" class="speakerCan">
+		<img src="images/Stripe_Icon.svg" alt="Orange Stripe" id="orangeStripe" class="col-span-full">
+	</footer>
 
 	<script src="js/main.js"></script>
 </body>
 </html>
-
-<!-- 
-<body>
-		<div class="top-elements">
-			<img src="images/Disco_Icon-animated.svg" alt="disco balls" id="disco-ball" height="300px">
-			<img src="images/Logo_Icon.svg" alt="QUATRO logo" id="quatro-logo" width="400px">
-			<img src="images/Disco_Icon-animated.svg" alt="disco balls" id="disco-ball1" height="300px">
-		</div>
-
-	<div class="mid-elements">
-		<img src="images/Speaker_Icon-animated.svg" alt="speaker can" id="speaker-can" height="500px">
-		<img src="images/Bunny_Icon-animated.svg" alt="DJ bunny" id="dj-bunny" height="400px">
-		<img src="images/Speaker_Icon-animated.svg" alt="speaker can" id="speaker-can2" height="500px">
-	</div>
-	</section>
-
-	<section id="drop-board" class="grid-con">
-			<div class="drop-square"></div>
-			<div class="drop-square"></div>
-			<div class="drop-square"></div>
-			<div class="drop-square"></div>
-			<div class="drop-square"></div>
-	</section>
-
-	<section class="fruit-box grid-con">
-		<div class="fruits"><img src="images/Strawberry_Icon.svg" alt="strawberry" id="bass_guitar_1" draggable="true"></div>
-		<div class="fruits"><img src="images/Apple_Icon.svg" alt="apple" id="bass_guitar_2" draggable="true"></div>
-		<div class="fruits"><img src="images/Orange_Icon.svg" alt="orange" id="drum_kit_1" draggable="true"></div>
-		<div class="fruits"><img src="images/Berry_Icon.svg" alt="berry" id="drum_kit_2" draggable="true"></div>
-		<div class="fruits"><img src="images/Pomegranate_Icon.svg" alt="pomegranate" id="guitar_riff_1" draggable="true"></div>
-		<div class="fruits"><img src="images/Melon_Icon.svg" alt="melon" id="guitar_riff_2" draggable="true"></div>
-		<div class="fruits"><img src="images/Peach_Icon.svg" alt="peach" id="techno_beat_1" draggable="true"></div>
-		<div class="fruits"><img src="images/Grape_Icon.svg" alt="grape" id="techno_beat_2" draggable="true"></div>
-	</section>
-
-	<script src="js/main.js"></script>
-</body>
-</html> -->
