@@ -24,6 +24,11 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
+button {
+	background-color: transparent;
+	border: none;
+}
+
 header {
 	display: flex;
 }
@@ -49,7 +54,10 @@ header {
 }
 
 #mainLogo {
-	width: 40rem;
+	width: 30rem;
+	display: flex;
+	margin: auto;
+	margin-top: 40px;
 }
 
 .fruits {
@@ -76,15 +84,6 @@ header {
 	width: 150rem;
 	justify-content: center;
 	align-items: center;
-}
-
-#stripe {
-	overflow: hidden;
-}
-
-button {
-	background-color: transparent;
-	border: none;
 }
 
 /* Mobile Styling */
