@@ -24,13 +24,59 @@
         </section> -->
 
 <body>
-	<header id="headLine" class="grid-con">
-		<h1 class="hidden">QUATRO</h1>
-		<img src="images/Disco_Icon.svg" alt="Disco Ball" class="discoBall">
-		<img src="images/Logo_Icon.svg" alt="Quatro Logo" id="mainLogo" class="s">
-		<img src="images/Disco_Icon.svg" alt="Disco Ball" class="discoBall">
+	<header class="grid-con">
+		<h1 class="hidden">Quatro Header</h1>
+		<div class="col-span-full">
+		<img src="images/Logo_Icon.svg" alt="Quatro Logo" id="mainLogo">
 		<p>Drag The Fruits Into The Boxes To Play</p>
+		</div>
 	</header>
+
+	<section class="grid-con">
+		<img src="images/Disco_Icon.svg" alt="Disco Ball" class="discoBall col-start-1 col-end-3">
+		<img src="images/Disco_Icon.svg" alt="Disco Ball" class="discoBall col-start-3 col-end-5">
+	</section>
+
+	<section class="fruit-box grid-con">
+		<div class="fruits">
+			<img src="images/Strawberry_Icon.svg" alt="strawberry" id="bass_guitar_1" draggable="true">
+			<p>Bass</p>
+		</div>
+
+		<div class="fruits">
+			<img src="images/Apple_Icon.svg" alt="apple" id="bass_guitar_2" draggable="true">
+			<p>Guitar</p>
+		</div>
+
+		<div class="fruits">
+			<img src="images/Orange_Icon.svg" alt="orange" id="drum_kit_1" draggable="true">
+			<p>Piano</p>
+		</div>
+
+		<div class="fruits">
+			<img src="images/Berry_Icon.svg" alt="berry" id="drum_kit_2" draggable="true">
+			<p>Synth</p>
+		</div>
+	</section>
+
+	<section class="fruit-box grid-con">
+		<div class="fruits">
+			<img src="images/Pomegranate_Icon.svg" alt="pomegranate" id="guitar_riff_1" draggable="true">
+			<p>Bass</p>
+		</div>
+		<div class="fruits">
+			<img src="images/Melon_Icon.svg" alt="melon" id="guitar_riff_2" draggable="true">
+			<p>Guitar</p>
+		</div>
+		<div class="fruits">
+			<img src="images/Peach_Icon.svg" alt="peach" id="techno_beat_1" draggable="true">
+			<p>Piano</p>
+		</div>
+		<div class="fruits">
+			<img src="images/Grape_Icon.svg" alt="grape" id="techno_beat_2" draggable="true">
+			<p>Synth</p>
+		</div>
+	</section>
 
 	<section class="audio-box grid-con">
 		<button id="playBtn" class="btn">
