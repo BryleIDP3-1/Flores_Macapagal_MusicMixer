@@ -8,7 +8,7 @@
   .grid-con { 
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    grid-column-gap: 30px;
+    grid-column-gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
     padding-left: 15px;

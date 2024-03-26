@@ -62,6 +62,7 @@ header {
 .fruits {
 	width: 5rem;
 	margin-top: 1rem;
+	place-items: center;
 }
 
 .drop-square {
@@ -71,19 +72,6 @@ header {
 	height: 5rem;
 	margin-right: 1rem;
 	margin-bottom: 1rem;
-}
-
-.audio-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.audio-box button {
-	display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .speakerCan {
