@@ -5,10 +5,6 @@ html {
 	box-sizing: border-box;
 }
 
-*, *:before, *:after {
-	box-sizing: inherit;
-}
-
 .hidden {
     display: none;
 }
@@ -18,7 +14,7 @@ body {
 	border: 0px;
 	background-image: url(../images/City_Background.svg);
 	background-repeat:no-repeat;
-	background-size: 250%;
+	background-size: 450%;
 	background-color: #2A004F;
 	color:#FFF;
 	font-family: 'Poppins', sans-serif;
@@ -31,20 +27,23 @@ button {
 
 header {
 	display: flex;
+	margin: auto;
 }
 
 #instructions {
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 35px;
-	font-weight: 600;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 2.25rem;
 }
 
 .fruits p {
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 600;
+	margin: auto;
 }
 
 .discoBall {
@@ -54,36 +53,69 @@ header {
 }
 
 #mainLogo {
-	width: 30rem;
+	width: 23rem;
 	display: flex;
 	margin: auto;
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 .fruits {
 	width: 5rem;
+	margin-top: 1rem;
 }
 
 .drop-square {
 	background-color: #6727ff;
-	border-radius: 20px;
-	width: 150px;
-	height: 150px;
+	border-radius: 10px;
+	width: 5rem;
+	height: 5rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+
+.audio-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.audio-box button {
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .speakerCan {
-	width: 20rem;
 	display: none;
 }
 
+footer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+#bunnyDJ, #orangeStripe {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #bunnyDJ {
-	width: 28rem;
+	position: relative;
+	z-index: 1;
+	width: 23rem;
+	margin-top: 2rem;
 }
 
 #orangeStripe {
-	width: 150rem;
-	justify-content: center;
-	align-items: center;
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	bottom: 0;
 }
 
 /* Mobile Styling */
