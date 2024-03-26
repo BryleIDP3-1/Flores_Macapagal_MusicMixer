@@ -34,6 +34,15 @@ function drop(e) {
     console.log('dropped something on me');
     const initialParent = draggedTool.parentNode;
 
+    // NEW TEST CODE FOR CONSISTENT AUDIO PLAY
+    document.querySelectorAll('audio').forEach(function(audio) {
+        if (audio !== draggedTool.querySelector('audio')) {
+            audio.pause();
+            audio.currentTime = 0;
+        }
+    });
+    // NEW TEST CODE FOR CONSISTENT AUDIO PLAY
+
     if (this.childElementCount === 0) {
         this.appendChild(draggedTool);
         playAudio(draggedTool.id); // Play audio when dropped onto a drop square
@@ -50,10 +59,9 @@ function playAudio(selectedInstrument) {
     console.log(selectedInstrument);
     let instrument = document.createElement("audio");
     instrument.src = `audio/${selectedInstrument}.mp3`;
-    instrument.load();
+    instrument.preload = "auto";
     instrument.loop = true;
     instrument.play();
-    instrument.currentTime = 0;
 }
 
 fruitIcons.forEach(tool => tool.addEventListener("dragstart", dragStart));
