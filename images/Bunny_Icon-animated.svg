@@ -58,7 +58,7 @@
 	  }
 
 svg #arm-right {
-	animation: wave 0.8s infinite alternate;
+	animation: wave 0.4s infinite alternate;
 	transform-origin: center;
 }
 
@@ -92,7 +92,7 @@ svg #arm-left {
 }
 
 svg #head {
-	animation: headBang 1s infinite alternate;
+	animation: headBang 0.4s infinite alternate;
 	transform-origin: center;
 }
 
@@ -103,7 +103,7 @@ svg #head {
 }
 
 svg #glasses {
-	animation: glasses 1s infinite alternate;
+	animation: glasses 0.4s infinite alternate;
 	transform-origin: center;
 }
 
@@ -115,7 +115,7 @@ svg #glasses {
 
 
 svg #tongue, #top-headset, #bot_headset {
-	animation: follow 0.8s infinite alternate;
+	animation: follow 0.6s infinite alternate;
 	transform-origin: center;
 }
 
