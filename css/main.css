@@ -33,6 +33,11 @@ header {
 	line-height: 2.25rem;
 }
 
+.fruits {
+	width: 80px;
+	height: 124.88px;
+}
+
 .fruits p {
 	text-transform: uppercase;
 	text-align: center;
