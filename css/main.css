@@ -234,9 +234,22 @@ footer {
 	.discoBall {
 		mix-blend-mode: screen;
 		width: 20rem;
-		display: grid;
+		position: absolute;
+		display: block;
 	}
-	
+
+	#discoBall_1 {
+		top: -4rem;
+		left: -5rem;
+		z-index: -1;
+	}
+
+	#discoBall_2 {
+		top: -4rem;
+		right: -5rem;
+		z-index: -1;
+	}
+
 	#mainLogo {
 		width: 32rem;
 		display: flex;
@@ -257,16 +270,6 @@ footer {
 		width: 15rem;
 		position: absolute;
 		bottom: 0;
-	}
-
-	#speaker-2 {
-		display: flex; 
-		justify-content: flex-end;
-	}
-
-	#speaker-2 {
-		display: flex; 
-		justify-content: flex-end;
 	}
 	
 	.audio-box {
