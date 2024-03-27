@@ -88,6 +88,10 @@ button {
 	margin-right: 1rem;
 }
 
+.btn:active {
+	transform: translateY(5px);
+}
+
 footer {
 	position: relative;
 	display: flex;
