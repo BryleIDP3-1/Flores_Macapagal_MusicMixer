@@ -268,11 +268,22 @@ footer {
 	}
 	
 	.speakerCan {
+		display: block;
 		width: 15rem;
-		position: absolute;
+		position: relative;
 		bottom: 0;
 	}
 	
+	#speaker-1 {
+		position: absolute;
+		left: -5rem;
+	}
+
+	#speaker-2 {
+		position: absolute;
+		right: -5rem;
+	}
+
 	.audio-box {
 		display: flex;
 		align-items: center;
