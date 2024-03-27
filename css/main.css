@@ -14,7 +14,7 @@ body {
 	border: 0;
 	background-image: url(../images/City_Background.svg);
 	background-repeat:no-repeat;
-	background-size: 450%;
+	background-size: 600%;
 	background-color: #2A004F;
 	color:#FFF;
 	font-family: 'Poppins', sans-serif;
@@ -107,6 +107,24 @@ button {
 
 .btn:active {
 	transform: translateY(5px);
+}
+
+#volume {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.volume {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#volumeControl {
+	width: 15rem;
+	margin-top: 30px;
+
 }
 
 footer {
