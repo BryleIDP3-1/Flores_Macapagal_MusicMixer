@@ -108,6 +108,7 @@ let draggedFruitsCount = 0;
         button.addEventListener('click', () => {
         button.classList.toggle('button-clicked');
         });
+        button.style.cursor = "pointer";
     });
 
 // VOLUME CONTROL EVENT LISTENER
@@ -118,7 +119,10 @@ let draggedFruitsCount = 0;
     });
 
 // DRAG AND DROP EVENT LISTENERS
-    fruitIcons.forEach(fruit => fruit.addEventListener("dragstart", dragStart));
+    fruitIcons.forEach(fruit => {
+    fruit.addEventListener('dragstart', dragStart);
+    fruit.style.cursor = "pointer";
+    });
 
     dropSquares.forEach(zone => {
         zone.addEventListener("dragover", dragOver);
