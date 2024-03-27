@@ -19,6 +19,7 @@ body {
 	color:#FFF;
 	font-family: 'Poppins', sans-serif;
 	min-width: 412px;
+	overflow-x: hidden;
 }
 
 header {
@@ -47,7 +48,7 @@ header {
 }
 
 .fruits {
-	width: 5rem;
+	width: 4.5rem;
 	height: 124.88px;
 	margin-top: 1rem;
 
@@ -69,8 +70,6 @@ header {
 }
 
 .discoBall {
-	mix-blend-mode: screen;
-	width: 20rem;
 	display: none;
 }
 
@@ -88,8 +87,8 @@ header {
 .drop-square {
 	background-color: #6727ff;
 	border-radius: 10px;
-	width: 5rem;
-	height: 5rem;
+	width: 4.5rem;
+	height: 4.5rem;
 	margin-right: 1rem;
 	margin-bottom: 1rem;
 	margin-left: 10px;
@@ -127,7 +126,6 @@ button {
 #volumeControl {
 	width: 15rem;
 	margin-top: 30px;
-
 }
 
 footer {
