@@ -21,66 +21,61 @@
 <body>
 	<header class="grid-con">
 		<h1 class="hidden">Quatro Header</h1>
-		<div class="col-span-full">
+		<div class="col-span-full m-col-span-full">
 			<img src="images/Logo_Icon.svg" alt="Quatro Logo" id="mainLogo">
 			<p id="instructions">Drag The Fruits Into The Boxes To Play</p>
 		</div>
 	</header>
 
+	<section class="grid-con">
+		<img src="images/Disco_Icon.svg" alt="Disco Ball" class="discoBall col-start-1 col-end-3 m-col-start-1 m-col-end-3">
+		<img src="images/Disco_Icon.svg" alt="Disco Ball" class="discoBall col-start-3 col-end-5 m-col-start-8 m-col-end-13">
+	</section>
+
 	<section id="drop-board" class="grid-con">
-		<div class="drop-square"></div>
-		<div class="drop-square"></div>
-		<div class="drop-square"></div>
-		<div class="drop-square"></div>
+		<div class="drop-square col-span-full m-col-start-3 m-col-end-4"></div>
+		<div class="drop-square col-span-full m-col-start-5 m-col-end-6"></div>
+		<div class="drop-square col-span-full m-col-start-7 m-col-end-8"></div>
+		<div class="drop-square col-span-full m-col-start-9 m-col-end-10"></div>
 	</section>
 
-	<section class="grid-con">
-		<div class="col-span-full">
-		<p id="requirement">Let's Get This Party Started! Use The Buttons and Sliders To Customize Your Music.</p>
-		</div>
-	</section>
-
-	<section class="grid-con">
-		<img src="images/Disco_Icon.svg" alt="Disco Ball" class="discoBall col-start-1 col-end-3">
-		<img src="images/Disco_Icon.svg" alt="Disco Ball" class="discoBall col-start-3 col-end-5">
+	<section class="requirement grid-con">
+		<p class="col-span-full m-col-start-3 m-col-end-11 l-col-span-full">Let's Get This Party Started! Use The Buttons and Sliders To Customize Your Music.</p>
 	</section>
 
 	<section class="fruit-box grid-con">
-		<div class="fruits">
+		<div class="fruits col-span-full m-col-start-3 m-col-end-4">
 			<img src="images/Strawberry_Icon.svg" alt="strawberry" id="bass_guitar_1" draggable="true">
 			<p>Bass</p>
 		</div>
-
-		<div class="fruits">
+		<div class="fruits col-span-full m-col-start-5 m-col-end-6">
 			<img src="images/Apple_Icon.svg" alt="apple" id="guitar_riff_1" draggable="true">
 			<p>Guitar</p>
 		</div>
-
-		<div class="fruits">
+		<div class="fruits col-span-full m-col-start-7 m-col-end-8">
 			<img src="images/Orange_Icon.svg" alt="orange" id="drum_kit_1" draggable="true">
 			<p>Drums</p>
 		</div>
-
-		<div class="fruits">
+		<div class="fruits col-span-full m-col-start-9 m-col-end-10">
 			<img src="images/Berry_Icon.svg" alt="berry" id="techno_beat_1" draggable="true">
 			<p>Synth</p>
 		</div>
 	</section>
 
 	<section class="fruit-box grid-con">
-		<div class="fruits">
+		<div class="fruits col-span-full m-col-start-3 m-col-end-4">
 			<img src="images/Pomegranate_Icon.svg" alt="pomegranate" id="bass_guitar_2" draggable="true">
 			<p>Bass</p>
 		</div>
-		<div class="fruits">
+		<div class="fruits col-span-full m-col-start-5 m-col-end-6">
 			<img src="images/Melon_Icon.svg" alt="melon" id="guitar_riff_2" draggable="true">
 			<p>Guitar</p>
 		</div>
-		<div class="fruits">
+		<div class="fruits col-span-full m-col-start-7 m-col-end-8">
 			<img src="images/Peach_Icon.svg" alt="peach" id="drum_kit_2" draggable="true">
 			<p>Drums</p>
 		</div>
-		<div class="fruits">
+		<div class="fruits col-span-full m-col-start-9 m-col-end-10">
 			<img src="images/Grape_Icon.svg" alt="grape" id="techno_beat_2" draggable="true">
 			<p>Synth</p>
 		</div>
@@ -99,7 +94,7 @@
 	</section>
 
 	<section class="grid-con">
-		<div class="volume col-span-full">
+		<div class="volume col-span-full m-col-span-full">
 			<input type="range" id="volumeControl" min="0" max="1" step="0.1" value="1">
 		</div>
 	</section>
@@ -109,8 +104,8 @@
 	</section>
 
 	<footer class="full-width-grid-con">
-		<img src="images/Speaker_Icon.svg" alt="Speaker Can" class="speakerCan">
-		<img src="images/Speaker_Icon.svg" alt="Speaker Can" class="speakerCan">
+		<img src="images/Speaker_Icon.svg" alt="Speaker Can" class="speakerCan" id="speaker-1">
+		<img src="images/Speaker_Icon.svg" alt="Speaker Can" class="speakerCan" id="speaker-2">
 		<img src="images/Stripe_Mobile.svg" alt="Orange Stripe" id="orangeStripe">
 	</footer>
 
