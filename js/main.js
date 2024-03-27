@@ -13,6 +13,8 @@ const bunnyDJIcon = document.getElementById('bunnyDJ');
 let draggedFruit = null;
 const selectedFruits = new Set();
 
+// Get reference to the volume control input element
+const volumeControl = document.getElementById('volumeControl');
 
 // function to check if all icons are in drop zone
 function allIconsInDropZone() {
@@ -25,7 +27,6 @@ function allIconsInDropZone() {
     return allInDropZone;
     }
 
-
 // button event listeners
     btns.forEach(button => {
     button.addEventListener('click', () => {
@@ -33,13 +34,11 @@ function allIconsInDropZone() {
     });
     });
 
-
 // drag and drop functions
     function dragStart() {
     console.log('started dragging this fruit:', this);
     draggedFruit = this;
     }
-
 
     function dragOver(e) {
     e.preventDefault();
@@ -47,11 +46,8 @@ function allIconsInDropZone() {
     this.classList.remove('hide');
     }
 
-
-
 // global variable to keep track of dragged items count
 let draggedFruitsCount = 0;
-
 
 // drop function
     function drop(e) {
@@ -66,7 +62,6 @@ let draggedFruitsCount = 0;
         draggedFruitsCount++; // Increment count
         const bunnyDJImg = document.getElementById('bunnyDJ');
         bunnyDJImg.setAttribute('src', `images/Bunny_Icon-animated.svg`);
-
 
         // Check if more than one element is dragged
         if (draggedFruitsCount > 1) {
@@ -83,7 +78,6 @@ let draggedFruitsCount = 0;
     draggedFruit.classList.remove('hide');
 }
 
-
 // audio related functions
     function playAudio(selectedFruit, selectedDropzone) {
         if (selectedDropzone.childElementCount === 1) {
@@ -93,10 +87,7 @@ let draggedFruitsCount = 0;
             selectedDropzone.appendChild(audio);
             selectedFruits.add(audio);
         }
-
-
     }
-
 
     function pauseAudio() {
         selectedFruits.forEach(audio => {
@@ -105,7 +96,6 @@ let draggedFruitsCount = 0;
         const bunnyDJImg = document.getElementById('bunnyDJ');
         bunnyDJImg.setAttribute('src', `images/Bunny_Icon.svg`);
     }
-
 
 // button event listeners
 const resetBtn = document.getElementById('resetBtn');
@@ -123,16 +113,19 @@ const resetBtn = document.getElementById('resetBtn');
     bunnyDJImg.setAttribute('src', `images/Bunny_Icon-animated.svg`);
     });
 
-
     const pauseBtn = document.getElementById('pauseBtn');
     pauseBtn.addEventListener('click', () => {
         pauseAudio();
     });
 
+    volumeControl.addEventListener('input', function() {
+        selectedFruits.forEach(audio => {
+            audio.volume = this.value;
+        });
+    });
 
 // drag and drop event listeners
     fruitIcons.forEach(fruit => fruit.addEventListener("dragstart", dragStart));
-
 
     dropSquares.forEach(zone => {
         zone.addEventListener("dragover", dragOver);
