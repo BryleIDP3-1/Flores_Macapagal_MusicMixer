@@ -3,18 +3,15 @@ console.log("JS file connected");
 
 
 // DOM element selections
-const btns = document.querySelectorAll('.btn');
-const dropSquares = document.querySelectorAll('.drop-square');
-const fruitIcons = document.querySelectorAll('.fruits img');
-const bunnyDJIcon = document.getElementById('bunnyDJ');
-
+const btns = document.querySelectorAll('.btn'),
+    dropSquares = document.querySelectorAll('.drop-square'),
+    fruitIcons = document.querySelectorAll('.fruits img'),
+    bunnyDJIcon = document.getElementById('bunnyDJ');
 
 // global variables
 let draggedFruit = null;
-const selectedFruits = new Set();
-
-// Get reference to the volume control input element
-const volumeControl = document.getElementById('volumeControl');
+const selectedFruits = new Set(),
+    volumeControl = document.getElementById('volumeControl');
 
 // function to check if all icons are in drop zone
 function allIconsInDropZone() {
@@ -103,7 +100,6 @@ const resetBtn = document.getElementById('resetBtn');
         location.reload();
     });
 
-
     const playBtn = document.getElementById('playBtn');
     playBtn.addEventListener('click', () => {
     selectedFruits.forEach(audio => {
@@ -131,6 +127,4 @@ const resetBtn = document.getElementById('resetBtn');
         zone.addEventListener("dragover", dragOver);
         zone.addEventListener("drop", drop);
     });
-
-
 });
