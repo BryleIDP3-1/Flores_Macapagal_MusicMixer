@@ -267,19 +267,19 @@ footer {
 	
 	.speakerCan {
 		display: block;
-		width: 15rem;
+		width: 30rem;
 		position: relative;
-		bottom: 0;
+		top: -550px;
 	}
 	
 	#speaker-1 {
 		position: absolute;
-		left: -5rem;
+		left: -8rem;
 	}
 
 	#speaker-2 {
 		position: absolute;
-		right: -5rem;
+		right: -8rem;
 	}
 
 	.audio-box {
@@ -425,19 +425,19 @@ footer {
 	
 	.speakerCan {
 		display: block;
-		width: 18rem;
+		width: 35rem;
 		position: relative;
-		bottom: 150px;
+		top: -750px;
 	}
 	
 	#speaker-1 {
 		position: absolute;
-		left: 3rem;
+		left: -5rem;
 	}
 
 	#speaker-2 {
 		position: absolute;
-		right: 3rem;
+		right: -5rem;
 	}
 
 	.audio-box {
