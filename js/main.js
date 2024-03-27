@@ -79,7 +79,7 @@ function drop(e) {
             selectedFruits.add(audio);
         }
     }
-
+    
     function pauseAudio() {
         selectedFruits.forEach(audio => {
             audio.pause();
