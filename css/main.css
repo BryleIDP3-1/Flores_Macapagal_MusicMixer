@@ -51,10 +51,8 @@ header {
 	width: 4.5rem;
 	height: 124.88px;
 	margin-top: 1rem;
-
 	place-items: center;
 	position: relative;
-
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
@@ -155,79 +153,25 @@ footer {
 	width: 100%;
 	bottom: 0;
 }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Tablet Styling */
  
 @media screen and (min-width: 768px) {
 	body {
 		background-size: 300%;
-		overflow-x: hidden;
-	}
-	
-	header {
-		display: flex;
-		margin: auto;
-	}
-	
-	#instructions {
-		text-transform: uppercase;
-		text-align: center;
-		font-size: 28px;
-		font-weight: 700;
-		line-height: 2.25rem;
 	}
 
 	.requirement p {
 		text-align: center;
-		font-size: 20px;
+		font-size: 23px;
 		font-weight: 500;
-		line-height: 1.6rem;
+		line-height: 1.7rem;
 		letter-spacing: 0.4px;
 	}
 	
 	.fruits {
 		width: 5rem;
-		height: 124.88px;
-		margin-top: 1rem;
-	
-		place-items: center;
-		position: relative;
-	
-		display: flex;
-		align-items: flex-start;
-		justify-content: center;
 		margin-left: 10px;
-	}
-	
-	.fruits p {
-		text-transform: uppercase;
-		font-size: 20px;
-		font-weight: 600;
-		position: absolute;
-		bottom: 0;
-		margin: 0;
 	}
 	
 	.discoBall {
@@ -251,8 +195,6 @@ footer {
 
 	#mainLogo {
 		width: 32rem;
-		display: flex;
-		margin: auto;
 		margin-top: 40px;
 	}
 	
@@ -283,9 +225,6 @@ footer {
 	}
 
 	.audio-box {
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		margin-left: 10px;
 	}
 	
@@ -299,13 +238,6 @@ footer {
 	#volumeControl {
 		width: 15rem;
 		margin-top: 30px;
-	}
-	
-	footer {
-		position: relative;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 	}
 	
 	#bunnyDJ, #orangeStripe {
@@ -331,61 +263,24 @@ footer {
 	}
  }
 
-
-
-
-
-
- /* Desktop Styling */
+/* Desktop Styling */
  
 @media screen and (min-width: 1200px) {
 	body {
 		background-size: 200%;
-		overflow-x: hidden;
-	}
-	
-	header {
-		display: flex;
-		margin: auto;
-	}
-	
-	#instructions {
-		text-transform: uppercase;
-		text-align: center;
-		font-size: 28px;
-		font-weight: 700;
-		line-height: 2.25rem;
 	}
 
 	.requirement p {
 		text-align: center;
-		font-size: 20px;
+		font-size: 25px;
 		font-weight: 500;
-		line-height: 1.6rem;
+		line-height: 1.8rem;
 		letter-spacing: 0.4px;
 	}
 	
 	.fruits {
 		width: 5rem;
-		height: 124.88px;
-		margin-top: 1rem;
-	
-		place-items: center;
-		position: relative;
-	
-		display: flex;
-		align-items: flex-start;
-		justify-content: center;
 		margin-left: 10px;
-	}
-	
-	.fruits p {
-		text-transform: uppercase;
-		font-size: 20px;
-		font-weight: 600;
-		position: absolute;
-		bottom: 0;
-		margin: 0;
 	}
 	
 	.discoBall {
@@ -409,8 +304,6 @@ footer {
 
 	#mainLogo {
 		width: 32rem;
-		display: flex;
-		margin: auto;
 		margin-top: 40px;
 	}
 	
@@ -439,9 +332,6 @@ footer {
 	}
 
 	.audio-box {
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		margin-left: 30px;
 		position: relative;
 		bottom: 225px;
@@ -458,13 +348,6 @@ footer {
 		width: 15rem;
 		position: relative;
 		top: -230px;
-	}
-	
-	footer {
-		position: relative;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 	}
 	
 	#bunnyDJ {
