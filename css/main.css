@@ -319,6 +319,7 @@ footer {
 		width: 35rem;
 		position: relative;
 		top: -750px;
+		z-index: -1;
 	}
 	
 	#speaker-1 {
